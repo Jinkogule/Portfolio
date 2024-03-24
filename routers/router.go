@@ -6,7 +6,5 @@ import (
 )
 
 func init() {
-	beego.Router("/sum/:num1:int/:num2:int", &controllers.HomeController{})
-
-    beego.Router("/", &controllers.MainController{})
+    beego.Router("/", &controllers.HomeController{})
 }
