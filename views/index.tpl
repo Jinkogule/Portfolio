@@ -214,7 +214,7 @@
                                                     
                                                     <div class="scrollable-content overflow-y-auto max-h-70vh">
                                                         {{range .DescricaoDetalhada}}
-                                                            <h2 class="text-heading font-medium text-sm lg:text-[calc(0.93rem)] xl2:text-[calc(1.05rem)] dark:text-dheading">{{.Titulo}}</h2>
+                                                            <h2 class="text-heading font-medium text-sm lg:text-[calc(0.93rem)] xl2:text-[calc(1.05rem)] dark:text-dheading mb-2 mt-2">{{.Titulo}}</h2>
                                                             <p class="text-paragraph text-xs lg:text-[calc(0.78rem)] font-normal xl2:text-[calc(0.9rem)] dark:text-dparagraph">{{.Conteudo | safe}}</p>
                                                         {{end}}                                                 
                                                     </div>
