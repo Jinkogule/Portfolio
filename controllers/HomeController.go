@@ -78,7 +78,7 @@ func (c *HomeController) Get() {
 	
 			
 		},
-		Status:             "",
+		Status:             "Em desenvolvimento",
 		Periodo:            "",
 		Autores: 			[]Autor{},
 		Linguagem: 			"PHP",
@@ -155,7 +155,7 @@ func (c *HomeController) Get() {
 	p2 := Projeto{
 		Id:        "2",
 		Nome:      "Cultura Niterói",
-		DescricaoSimples: "Portal desenvolvido para a Fundação de Arte de Niterói",
+		DescricaoSimples: "Portal desenvolvido para a Fundação de Arte de Niterói.",
 	
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
@@ -164,7 +164,7 @@ func (c *HomeController) Get() {
 			},
 			{
 				Titulo :   "Sobre a Fundação de Arte de Niterói",
-				Conteudo:   "A Fundação de Arte de Niterói é uma instituição autárquica que tem como finalidade estimular e promover manifestações artísticas e culturais de interesse para o município de Niterói. Ela administra o corpo artístico da Companhia de Ballet da Cidade de Niterói e é responsável por várias unidades culturais, incluindo o Theatro Municipal João Caetano, o Museu de Arte Contemporânea (MAC), o Teatro Popular Oscar Niemeyer, o Centro Cultural Paschoal Carlos Magno, a Sala José Cândido de Carvalho, a Sala Nelson Pereira dos Santos, a Biblioteca Parque de Niterói, o Museu Janete Costa de Arte Popular e o Solar do Jambeiro. (mais informações <a href='https://culturaniteroi.com.br/blog/fundacao-de-arte-de-niteroi/500'>aqui</a>).",
+				Conteudo:   "A Fundação de Arte de Niterói é uma instituição autárquica que tem como finalidade estimular e promover manifestações artísticas e culturais de interesse para o município de Niterói. Ela administra o corpo artístico da Companhia de Ballet da Cidade de Niterói e é responsável por várias unidades culturais, incluindo o Theatro Municipal João Caetano, o Museu de Arte Contemporânea (MAC), o Teatro Popular Oscar Niemeyer, o Centro Cultural Paschoal Carlos Magno, a Sala José Cândido de Carvalho, a Sala Nelson Pereira dos Santos, a Biblioteca Parque de Niterói, o Museu Janete Costa de Arte Popular e o Solar do Jambeiro.",
 			},
 			
 		},
@@ -245,7 +245,7 @@ func (c *HomeController) Get() {
 	p3 := Projeto{
 		Id:        "3",
 		Nome:      "Trabalho - DAC",
-		DescricaoSimples: "Software desenvolvido para disciplina Desenvolvimento de Aplicações Corporativas",
+		DescricaoSimples: "Software desenvolvido para disciplina Desenvolvimento de Aplicações Corporativas.",
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
 				Titulo: "Sobre o Projeto",
@@ -257,7 +257,7 @@ func (c *HomeController) Get() {
 			},
 			
 		},
-		Status:             "",
+		Status:             "Concluído",
 		Periodo:            "",
 		Autores: []Autor{},
 		Linguagem: "Java",
@@ -286,16 +286,16 @@ func (c *HomeController) Get() {
 		DescricaoSimples: "Software desenvolvido para disciplina Projeto de Software.",
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
-				Titulo :   "Visão Geral",
-				Conteudo:   "sds",
+				Titulo :   "Sobre o E-Classroom",
+				Conteudo:   "",
 			},
 			{
 				Titulo :   "Contexto Acadêmico",
-				Conteudo:   "Este projeto foi desenvolvido como parte da disciplina Projeto de Software, tendo como principal objetivo a realização de operações CRUD através de uma API",
+				Conteudo:   "",
 			},
 			
 		},
-		Status:             "",
+		Status:             "Concluído",
 		Periodo:            "",
 		Autores: []Autor{},
 		Linguagem: "Python",
@@ -325,7 +325,7 @@ func (c *HomeController) Get() {
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
 				Titulo:   "Sobre o A-DOTA",
-				Conteudo:   "O “A-DOTA” é um software que auxilia no controle de animais em situação de adoção. Ele permite gerenciar desde a entrada do animal no sistema de adoção até o registro da adoção em si. Inicialmente, o programa se concentra na adoção de cães e gatos e tem como escopo o estado do Rio de Janeiro e suas cidades. O projeto foi desenvolvido utilizando a linguagem de programação Java e a interface gráfica Java Swing. Além disso, foram aplicados diversos conceitos de programação orientada a objetos, incluindo construtores, pacotes, encapsulamento, atributos e métodos estáticos, herança, polimorfismo, classes abstratas e interfaces. O projeto também envolveu o uso de arquivos e o tratamento de exceções.",
+				Conteudo:   "O A-DOTA é um software que auxilia no controle de animais em situação de adoção. Ele permite gerenciar desde a entrada do animal no sistema de adoção até o registro da adoção em si. Inicialmente, o programa se concentra na adoção de cães e gatos e tem como escopo o estado do Rio de Janeiro e suas cidades. O projeto foi desenvolvido utilizando a linguagem de programação Java e a interface gráfica Java Swing. Além disso, foram aplicados diversos conceitos de programação orientada a objetos, incluindo construtores, pacotes, encapsulamento, atributos e métodos estáticos, herança, polimorfismo, classes abstratas e interfaces. O projeto também envolveu o uso de arquivos e o tratamento de exceções.",
 			},
 			{
 				Titulo:   "Contexto Acadêmico",
@@ -407,7 +407,7 @@ func (c *HomeController) Get() {
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
 				Titulo: "Sobre o Filhos do Coração",
-				Conteudo: "O “Filhos do Coração” é um software desenvolvido para auxiliar no processo de adoção de crianças. Ele permite gerenciar desde a disponibilização de informações gerais sobre a adoção, incluindo textos e imagens de profissionais da área, depoimentos e contatos, até o registro da adoção em si. O sistema apresenta aos candidatos o processo de adoção, detalhando as etapas e prazos, e informa toda a documentação necessária. Além disso, permite que os usuários tirem dúvidas sobre o processo e a documentação.<br><br>O software apresenta casos de sucesso de adoções de crianças e permite que os usuários verifiquem informações e imagens sobre as crianças disponíveis para adoção, incluindo nome, idade, localização, estado de saúde, fotos e vídeos. O sistema verifica as informações dos candidatos a pais e permite que eles selecionem e adotem uma criança. Em caso de uma adoção não funcionar bem para os pais ou a criança, o sistema permite o cancelamento da adoção. Além disso, possibilita a adoção de famílias de dois ou mais irmãos pelos mesmos pais.<br><br>O projeto “Filhos do Coração” foi desenvolvido utilizando a linguagem de programação PHP com o framework Laravel e o banco de dados PostgreSQL. Ele também permite que os usuários enviem imagens das famílias, utilizando o S3 da Amazon para armazená-las.",
+				Conteudo: "O Filhos do Coração é um software desenvolvido para auxiliar no processo de adoção de crianças. Ele permite gerenciar desde a disponibilização de informações gerais sobre a adoção, incluindo textos e imagens de profissionais da área, depoimentos e contatos, até o registro da adoção em si. O sistema apresenta aos candidatos o processo de adoção, detalhando as etapas e prazos, e informa toda a documentação necessária. Além disso, permite que os usuários tirem dúvidas sobre o processo e a documentação.<br><br>O software apresenta casos de sucesso de adoções de crianças e permite que os usuários verifiquem informações e imagens sobre as crianças disponíveis para adoção, incluindo nome, idade, localização, estado de saúde, fotos e vídeos. O sistema verifica as informações dos candidatos a pais e permite que eles selecionem e adotem uma criança. Em caso de uma adoção não funcionar bem para os pais ou a criança, o sistema permite o cancelamento da adoção. Além disso, possibilita a adoção de famílias de dois ou mais irmãos pelos mesmos pais.<br><br>O projeto “Filhos do Coração” foi desenvolvido utilizando a linguagem de programação PHP com o framework Laravel e o banco de dados PostgreSQL. Ele também permite que os usuários enviem imagens das famílias, utilizando o S3 da Amazon para armazená-las.",
 			},
 			{
 				Titulo :   "Contexto Acadêmico",
@@ -415,7 +415,7 @@ func (c *HomeController) Get() {
 			},
 			
 		},
-		Status:             "",
+		Status:             "Concluído",
 		Periodo:            "",
 		Autores: []Autor{},
 		Linguagem: "PHP",
@@ -466,7 +466,7 @@ func (c *HomeController) Get() {
 	p7 := Projeto{
 		Id:        "7",
 		Nome:      "Portfólio",
-		DescricaoSimples: "",
+		DescricaoSimples: "Site pessoal para apresentar e destacar informações sobre mim, meus projetos, habilidades e realizações.",
 		DescricaoDetalhada: []TopicoDeProjeto{
 			{
 				Titulo :   "Sobre o Portfólio",
